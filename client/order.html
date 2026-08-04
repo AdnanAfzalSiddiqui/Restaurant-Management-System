@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Order Food</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="booking.html">Book Table</a>
+        <a href="order.html">Order Food</a>
+    </nav>
+</header>
+
+<section class="order-container">
+
+    <h2>Place Your Order</h2>
+
+    <form id="orderForm">
+
+        <label>Customer Name</label>
+        <input type="text" id="customerName" placeholder="Enter your name" required>
+
+        <label>Select Food Item</label>
+        <select id="foodItem" required>
+            <option value="">-- Select an Item --</option>
+            <option>Margherita Pizza</option>
+            <option>Veg Burger</option>
+            <option>Chicken Biryani</option>
+            <option>Pasta Alfredo</option>
+            <option>Cold Coffee</option>
+        </select>
+
+        <label>Quantity</label>
+        <input type="number" id="quantity" min="1" value="1" required>
+
+        <button type="submit" class="btn">
+            Place Order
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 Restaurant Management System</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
