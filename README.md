@@ -1,6 +1,6 @@
 # 🍽️ Restaurant Management System
 
-A full-stack Restaurant Management System developed using **MySQL, HTML, CSS, and JavaScript,Node.js, Express.js**. The system streamlines restaurant operations by allowing customers to browse the menu, reserve tables, and place food orders through an intuitive web interface.
+A full-stack Restaurant Management System developed using **MySQL, HTML, CSS, and JavaScript, Node.js, Express.js**. The system streamlines restaurant operations by allowing customers to browse the menu, reserve tables, and place food orders through an intuitive web interface.
 
 ---
 
